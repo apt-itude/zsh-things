@@ -1,3 +1,3 @@
-elif [ -x "$(command -v dircolors)" ]; then
+if [ -x "$(command -v dircolors)" ]; then
     eval "$(dircolors)"
 fi
